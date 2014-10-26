@@ -1,101 +1,101 @@
 
 
 html, body {
-  margin: 0;
-  padding: 0;
-  background: radial-gradient(circle, #fff 20%, #ccc);
-  font-family: "Open Sans", sans-serif;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    font-family: "Open Sans", sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 h3 {
-  text-align: center;
-  font-size: 21px;
-  font-weight: bold;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
 }
 
 p {
-  margin-top: -15px;
-  margin-bottom: 40px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: normal;
-  color: gray;
+    margin-top: -15px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
 }
 
 
 
 #calculator_main {
-  height: 325px;
-  width: 250px;
-  background: linear-gradient(#9dd2ea, #8bceec);
-  border-radius: 10px;
-  margin: 0 auto;
-  padding: 10px;
-  box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    height: 325px;
+    width: 250px;
+    background: linear-gradient(#9dd2ea, #8bceec);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 #output_screen {
-  height: 50px;
-  width: 85%;
-  border-radius: 5px;
-  margin: 0 auto;
-  box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
-  background: #B8FFBF;
-  overflow: hidden;
+    height: 50px;
+    width: 85%;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    background: #B8FFBF;
+    overflow: hidden;
 }
 
 #output_screen p {
-  width: 95%;
-  height: 95%;
-  font-size: 28px;
-  text-align: right;
-  margin: 0 auto;
-  color: #000;
-  letter-spacing: 3px;
+    width: 95%;
+    height: 95%;
+    font-size: 28px;
+    text-align: right;
+    margin: 0 auto;
+    color: #000;
+    letter-spacing: 3px;
 }
 
 #button_grid {
-  height: 225px;
-  width: 85%;
-  margin: 0 auto;
-  margin-top: 20px;
-  border-radius: 5px;
-  box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  padding: 10px;
-  background: #506E7F;
-  font-size: 14px;
-  font-weight: bold;
+    height: 225px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+    background: #506E7F;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #button_grid div {
-  position: relative;
-  margin: 3px;
-  display: inline-block;
-  height: 18%;
-  width: 20%;
-  border-radius: 5px;
-  box-shadow: 0px 4px rgba(0, 0, 0, 0.4);
-  background: #56CC61;
-  cursor: default;
-  color: #367F3D;
-  transition: 0.2s;
+    position: relative;
+    margin: 3px;
+    display: inline-block;
+    height: 18%;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+    background: #56CC61;
+    cursor: default;
+    color: #367F3D;
+    transition: 0.2s;
 }
 
 #button_grid div:hover {
-  transition: 0.1s;
-  background: hsla(200, 50%, 80%, 0.5);
-  color: white;
+    transition: 0.1s;
+    background: hsla(200, 50%, 80%, 0.5);
+    color: white;
 }
 
 #button_grid div:active {
-  box-shadow: 0px 0px rgba(0, 0, 0, 0.0);
-  top: 3px;
-  transition: 0.1s;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.0);
+    top: 3px;
+    transition: 0.1s;
 }
