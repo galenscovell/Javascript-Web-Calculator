@@ -21,14 +21,28 @@ h3 {
 
 p {
     margin-top: -15px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 16px;
     font-weight: normal;
     color: gray;
 }
 
+#link {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: rgba(0, 0, 75, 0.8);
+    transition: 0.2s;
+}
 
 #calculator_main {
     height: 325px;
